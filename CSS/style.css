@@ -1,0 +1,94 @@
+body{
+ margin: 0;
+ text-align: center;
+ font-family: "Merriweather",serif;
+}
+
+h1{
+  font-family: "Sacramento", serif;
+  margin: 50px auto 0 auto;
+  font-size: 5.62rem;
+  color: #66BFBF;
+  line-height: 1;
+}
+h2{
+  font-family:  "Montserrat", serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+h3{
+color: #11999E;
+}
+p{
+  font-family: "Montserrat", serif;
+}
+hr{
+  border-style: dotted none none;
+  border-color: grey;
+  height: 5px;
+  width: 10%;
+  border-width: 5px;
+  margin-top: 30px;
+}
+
+/******************CLASS SELECTORS****************/
+
+.topcontainer{
+  position: relative;
+  padding-top: 100px;
+  background-color: #EAF6F6;
+  }
+.Web{
+  text-decoration: underline;
+}
+.top-cloud{
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:400px;
+  bottom: 300px;
+}
+.cricket{
+  height: 300px;
+  width: 400px;
+}
+.web{
+  height: 300px;
+  width: 400px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+.vaibhav{
+  margin-top: 30px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    margin-top: 30px;
+}
+.a{
+  color: #11999E;
+}
